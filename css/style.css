@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 1200px;
+    flex: 1;
 }
 
 .logo {
@@ -50,6 +51,7 @@ ul{
 
 .hero-button {
     background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 .header {
@@ -77,3 +79,49 @@ ul{
     font-size: large;
     border-radius: 12px;
 }
+
+.middle-upper {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background-color: #F9FAF8;
+    align-items: center;
+    flex: 1;
+}
+
+.img img {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+} 
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 30px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 30px 0px;
+} 
+
+.img-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    margin-bottom: 50px;
+}
+
+.img-in p {
+    font-size: 18px;
+    color: #515255;
+    text-align: center;
+}
+
