@@ -75,8 +75,8 @@ ul{
     flex-wrap: wrap;
 } 
 .hero-button {
-    padding: 10px 40px;
-    font-size: large;
+    padding: 5px 30px;
+    font-weight: bold;
     border-radius: 12px;
 }
 
@@ -125,3 +125,81 @@ ul{
     text-align: center;
 }
 
+.middle-lower {
+    background-color: #E5E7EB;
+    width: 1200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 50px 220px 0px;
+}
+
+.thor {
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 220px 50px 750px;
+}
+
+.bottom {
+    width: 1200px;
+    background-color: #F9FAF8;
+}
+
+.bottom-main {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 160px;
+    border-radius: 4px;
+}
+
+.bottom-right {
+    margin-right: 50px;
+}
+
+.bottom-right button{
+    background-color: #3882F6;
+    border: #E5E7EB solid 2px;
+    padding: 5px 30px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: #E5E7EB;
+} 
+
+.bottom-left {
+    color: #E5E7EB;
+    margin-left: 50px;
+}
+
+.bot-left-p {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.local {
+  margin-top: 0px;
+  margin-bottom: 40px;
+} 
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    width: 1200px; 
+    display: flex;
+    justify-content: center;
+}
+
+.footer div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
